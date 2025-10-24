@@ -1,5 +1,3 @@
-throw new Error("Replace src/app/lib/firebase.config.js with your own config");
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -7,7 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
+  apiKey: "AIzaSyALrDGas0sPrId35VNsPlJJ7bGsAElIbI0",
+  authDomain: "fir-extensions-3a5f8.firebaseapp.com",
+  projectId: "fir-extensions-3a5f8",
+  storageBucket: "fir-extensions-3a5f8.firebasestorage.app",
+  messagingSenderId: "571320782378",
+  appId: "1:571320782378:web:c5992e436cc01e09c5fd53"
 };
 
 // Initialize Firebase
